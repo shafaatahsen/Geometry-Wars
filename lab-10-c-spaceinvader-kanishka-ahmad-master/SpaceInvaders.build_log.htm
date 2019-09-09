@@ -1,0 +1,66 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+C:\Users\Zanel\Desktop\lab-10-c-spaceinvader-kanishka-ahmad-master\SpaceInvaders.uvproj
+Project File Date:  05/01/2018
+
+<h2>Output:</h2>
+Rebuild target 'SpaceInvaders'
+assembling startup.s...
+compiling DAC.c...
+compiling ADC.c...
+compiling Timer1.c...
+compiling Sound.c...
+assembling LCD.s...
+assembling Print.s...
+compiling ST7735.c...
+compiling PLL.c...
+compiling Asteroids.c...
+compiling gamestruct.c...
+compiling EdgeInterrupts.c...
+linking...
+Program Size: Code=12660 RO-data=224148 RW-data=124 ZI-data=30556  
+".\SpaceInvaders.axf" - 0 Error(s), 0 Warning(s).
+Load "C:\\Users\\Zanel\\Desktop\\lab-10-c-spaceinvader-kanishka-ahmad-master\\SpaceInvaders.axf" 
+Connecting: Mode=JTAG, Speed=1000000Hz
+Erase Done.
+Programming Done.
+Verify OK.
+ceinvader-kanishka-ahmad-master\\SpaceInvaders.axf" 
+Connecting: Mode=JTAG, Speed=1000000Hz
+Erase Done.
+Programming Done.
+Verify OK.
+
+.x = player1->x + 8*player1->dirx -10;
+Asteroids.c(479): error:  #20: identifier "i" is undefined
+                shot[i].x = player1->x + 8*player1->dirx -10;
+Asteroids.c(479): error:  #65: expected a ";"
+                shot[i].x = player1->x + 8*player1->dirx -10;
+Asteroids.c(483): error:  #40: expected an identifier
+                shot[i].y = player1->y + 8*player1->diry-16;
+Asteroids.c(483): error:  #20: identifier "i" is undefined
+                shot[i].y = player1->y + 8*player1->diry-16;
+Asteroids.c(483): error:  #65: expected a ";"
+                shot[i].y = player1->y + 8*player1->diry-16;
+Asteroids.c(486): error:  #40: expected an identifier
+                shot[i].y = player1->y + 8*player1->diry +10;
+Asteroids.c(486): error:  #20: identifier "i" is undefined
+                shot[i].y = player1->y + 8*player1->diry +10;
+Asteroids.c(486): error:  #65: expected a ";"
+                shot[i].y = player1->y + 8*player1->diry +10;
+Asteroids.c(489): error:  #136: struct "shot" has no field "dir"
+        shots[shotcnt].x_real = (p1.x_pos + 10) + 15*cos(shots[shotcnt].dir);
+Asteroids.c(490): error:  #136: struct "shot" has no field "dir"
+        shots[shotcnt].y_real = (p1.y_pos - 8) + 15*sin(shots[shotcnt].dir);
+Asteroids.c(510): error:  #136: struct "shot" has no field "dir"
+                shots[i].x_real = shots[i].x_pos + 3*cos(shots[i].dir);
+Asteroids.c(511): error:  #136: struct "shot" has no field "dir"
+                shots[i].y_real = shots[i].y_pos + 3*sin(shots[i].dir);
+Asteroids.c: 0 warnings, 17 errors
+compiling gamestruct.c...
+compiling EdgeInterrupts.c...
+".\SpaceInvaders.axf" - 17 Error(s), 0 Warning(s).
+Target not created
